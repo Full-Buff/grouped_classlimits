@@ -42,7 +42,7 @@ public void OnPluginStart()
     CreateConVar("sm_grouped_classlimits_version", PLUGIN_VERSION, "TF2 Grouped Class Limits version", FCVAR_NOTIFY|FCVAR_SPONLY);
     g_hEnabled       = CreateConVar("sm_grouped_classlimits_enabled", "1", "Enable/disable the grouped class limits plugin.", FCVAR_NOTIFY, true, 0.0, true, 1.0);
     g_hImmunityFlags = CreateConVar("sm_grouped_classlimits_immunity_flags", "b", "Admin flags required to bypass class limits (e.g., 'b', 'o'). Empty string means no immunity.");
-    g_hConfigFile    = CreateConVar("sm_grouped_classlimits_config", "configs/grouped_classlimits.cfg", "Path to the class limit group configuration file, relative to the sourcemod directory.");
+    g_hConfigFile    = CreateConVar("sm_grouped_classlimits_config", "grouped_classlimits.cfg", "Path to the class limit group configuration file, relative to the sourcemod directory.");
 
     g_LimitGroups = CreateArray(); // Array to store group IDs
     g_GroupClasses = CreateArray(); // Array to store handles to class arrays
