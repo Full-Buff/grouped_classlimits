@@ -7,6 +7,8 @@ This can be layered on top of the already existing tournament mode commands for 
 With this plugin, you can name you custom grouped limit configs what ever you would like, and then name the group itself anything relevant. Finally, you define the player limit on the group, and the classes that limit applies to.
 Custom configs are to be formatted as [KeyValue](https://wiki.alliedmods.net/KeyValues_(SourceMod_Scripting)) files.
 
+Live footage of this plugin in action coming soon!
+
 ## Installation
 Download the latest build of the plugin [here](https://github.com/Full-Buff/grouped_classlimits/releases/tag/latest) and place it in your './tf/addons/sourcemod/plugins/' directory on your server.
 Then, download the example config [here](https://github.com/Full-Buff/grouped_classlimits/blob/main/grouped_classlimits.cfg), make any changes to it that you need for your custom limits, then place it in your './tf/cfg/' directory on your server. 
