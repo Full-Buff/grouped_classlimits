@@ -7,7 +7,12 @@ This can be layered on top of the already existing tournament mode commands for 
 With this plugin, you can name you custom grouped limit configs what ever you would like, and then name the group itself anything relevant. Finally, you define the player limit on the group, and the classes that limit applies to.
 Custom configs are to be formatted as [KeyValue](https://wiki.alliedmods.net/KeyValues_(SourceMod_Scripting)) files.
 
-Here is an example config, a more thorough version of which can be found in this repo.
+## Installation
+Download the latest build of the plugin [here](https://github.com/Full-Buff/grouped_classlimits/releases/tag/latest) and place it in your './tf/addons/sourcemod/plugins/' directory on your server.
+Then, download the example config [here](https://github.com/Full-Buff/grouped_classlimits/blob/main/grouped_classlimits.cfg), make any changes to it that you need for your custom limits, then place it in your './tf/cfg/' directory on your server. 
+See below for making more custom configs and the commands to execute them ad-hoc.
+
+Here is a shorter example config:
 ```
 "GCL_Heavy-Med-Exclusive"
 {
@@ -26,6 +31,8 @@ Here is an example config, a more thorough version of which can be found in this
 Loading this config will allow there to be either 1 heavy, OR, 1 medic. There can not be one of each on the same team. 
 
 Custom configs can be placed in either ./tf/cfg/ or ./tf/addons/sourcemod/configs/
+
+Keep in mind, custom config files can be named anything you would like, but will not be executed by default. 
 
 ## Cvars you should care about
 
